@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import math
+import sys
 
 
 def isPrime(number):
@@ -51,6 +52,8 @@ def getPrimeFactors(number):
 
 
 input = 600851475143
+# for the love of god dont do this
+# input = sys.maxsize
 print(getPrimeFactors(input))
 
 
